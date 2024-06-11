@@ -1,0 +1,80 @@
+================================================================
+./llama3_2_70b/llama3/ifeval/eval_results_strict.jsonl Accuracy Scores:
+prompt-level: 0.7615526802218114
+instruction-level: 0.8152610441767069
+
+change_case 0.8214285714285714
+combination 0.7164179104477612
+detectable_content 0.8545454545454545
+detectable_format 0.9133333333333333
+keywords 0.848
+language 1.0
+length_constraints 0.6699029126213593
+punctuation 0.5671641791044776
+startend 0.9848484848484849
+
+change_case:capital_word_frequency 0.9
+change_case:english_capital 0.7307692307692307
+change_case:english_lowercase 0.8421052631578947
+combination:repeat_prompt 0.6428571428571429
+combination:two_responses 0.84
+detectable_content:number_placeholders 0.8461538461538461
+detectable_content:postscript 0.8620689655172413
+detectable_format:constrained_response 1.0
+detectable_format:json_format 0.6470588235294118
+detectable_format:multiple_sections 1.0
+detectable_format:number_bullet_lists 0.8461538461538461
+detectable_format:number_highlighted_sections 0.9387755102040817
+detectable_format:title 1.0
+keywords:existence 0.9523809523809523
+keywords:forbidden_words 0.9166666666666666
+keywords:frequency 0.9230769230769231
+keywords:letter_frequency 0.5862068965517241
+language:response_language 1.0
+length_constraints:nth_paragraph_first_word 0.75
+length_constraints:number_paragraphs 0.52
+length_constraints:number_sentences 0.6111111111111112
+length_constraints:number_words 0.8333333333333334
+punctuation:no_comma 0.5671641791044776
+startend:end_checker 1.0
+startend:quotation 0.975609756097561
+================================================================
+./llama3_2_70b/llama3/ifeval/eval_results_loose.jsonl Accuracy Scores:
+prompt-level: 0.789279112754159
+instruction-level: 0.8420348058902276
+
+change_case 0.8571428571428571
+combination 0.7313432835820896
+detectable_content 0.8545454545454545
+detectable_format 0.9333333333333333
+keywords 0.888
+language 1.0
+length_constraints 0.7087378640776699
+punctuation 0.6268656716417911
+startend 0.9848484848484849
+
+change_case:capital_word_frequency 0.9
+change_case:english_capital 0.7692307692307693
+change_case:english_lowercase 0.8947368421052632
+combination:repeat_prompt 0.6428571428571429
+combination:two_responses 0.88
+detectable_content:number_placeholders 0.8461538461538461
+detectable_content:postscript 0.8620689655172413
+detectable_format:constrained_response 1.0
+detectable_format:json_format 0.8235294117647058
+detectable_format:multiple_sections 1.0
+detectable_format:number_bullet_lists 0.8461538461538461
+detectable_format:number_highlighted_sections 0.9387755102040817
+detectable_format:title 1.0
+keywords:existence 0.9523809523809523
+keywords:forbidden_words 1.0
+keywords:frequency 0.9487179487179487
+keywords:letter_frequency 0.6206896551724138
+language:response_language 1.0
+length_constraints:nth_paragraph_first_word 0.8333333333333334
+length_constraints:number_paragraphs 0.52
+length_constraints:number_sentences 0.6666666666666666
+length_constraints:number_words 0.8666666666666667
+punctuation:no_comma 0.6268656716417911
+startend:end_checker 1.0
+startend:quotation 0.975609756097561

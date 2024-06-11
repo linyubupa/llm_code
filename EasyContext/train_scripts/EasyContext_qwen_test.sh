@@ -12,4 +12,4 @@ accelerate launch --config_file ../accelerate_configs/single_node.yaml \
 --model /yzwl_data/yumu/model/Qwen2-72B-Instruct  \
 --seq-length 20000 \
 --rope-theta 100000000 \
---parallel_mode zigzag_ring_attn \
+--parallel_mode zigzag_ring_attn 
